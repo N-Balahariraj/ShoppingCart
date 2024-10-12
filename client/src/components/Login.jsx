@@ -32,8 +32,6 @@ export default function Login({ setUser }) {
                             })
                         }
                         setIsLogingIn(false)
-                        setEmail('')
-                        setPassword('')
                     }}
                         type="submit"
                         className='rounded-md bg-sky-500 p-2 text-white'>

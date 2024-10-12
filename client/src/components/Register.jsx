@@ -38,10 +38,6 @@ export default function Register({setUser}) {
                             })
                         }
                         setIsRegistering(false)
-                        setEmail('')
-                        setName('') 
-                        setPassword('')
-                        setConfirmPassword('')
                     }}
                         type="submit"
                         className='rounded-md bg-sky-500 p-2 text-white'>
