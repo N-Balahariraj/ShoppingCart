@@ -17,7 +17,7 @@ export default function Home({ setUser, user }) {
         })
     },[])
     return (
-        <div className='h-[100vh] w-[95%] flex flex-col justify-between content-center font-mono margin-auto'>
+        <div className='h-[100vh] w-[95%] flex flex-col content-center font-mono margin-auto'>
             <div className='h-[5%] w-[100%] flex justify-between m-2 items-center box-border'>
                 <div className='w-[75%] h-[100%] flex items-center border-2 p-2 rounded-md'>
                     <input type="text" className='h-[100%] w-[95%] outline-none' />
@@ -33,7 +33,7 @@ export default function Home({ setUser, user }) {
                     }} />
                 </div>
             </div>
-            <div className='h-[85%] w-[100%] flex flex-wrap'>
+            <div className='h-[80%] w-[100%] flex flex-wrap overflow-auto'>
                 {products.map((product) => {
                     return (
                         <div className='h-[50%] w-[20%] m-2 border-2 rounded-md'>
